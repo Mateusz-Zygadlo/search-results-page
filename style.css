@@ -43,6 +43,12 @@ img{
     height: auto;
     padding-right: 20px;
 }
+.fivve p{
+    cursor: pointer;
+}
+.fivve span{
+    cursor: pointer;
+}
 input{
     width: 750px;
     height: 45px;
@@ -51,9 +57,12 @@ input{
     box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
     border: none;
     top: -12px;
-    text-indent: 20px;
+    text-indent: 30px;
     font-size: 15px;
     font-weight: 100;
+}
+span{
+    cursor: pointer;
 }
 .test-5{
     color: green;
@@ -62,8 +71,8 @@ input{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 55vw;
-    padding-left: 100px;
+    width: 75%;
+    margin-left: 140px;
     padding-right: 10px;
 }
 .fivve{
@@ -90,6 +99,9 @@ input{
     top: -3px;
     right: 135px;
 }
+.six p{
+    cursor: pointer;
+}
 .third{
     position: relative;
     top: -3px;
@@ -97,7 +109,7 @@ input{
     color: #1a73e8;
 }
 main{
-    margin-left: 140px;
+    margin-left: 180px;
     background-color: white;
     min-width: 300px;
     max-width: 650px;
@@ -247,7 +259,7 @@ button{
     font-size: 16px;
 }
 .b{
-    color: blue;
+    color: #4285f4;
 }
 .r{
     color: red;
@@ -266,11 +278,11 @@ button{
 }
 .final-one span{
     padding: 0px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 900;
 }
 footer{
-    padding-left: 140px;
+    padding-left: 180px;
     background: #f2f2f2;
     width: 100%;
     min-height: 10px;
@@ -318,4 +330,31 @@ footer{
 }
 .margin-0{
     margin-left: 30px;
+}
+main h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hover:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.structured-proposed-films p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.structure-proposed-links p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.final-two{
+    margin-top: 10px;
+}
+.final-two span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.flex-footer-two li:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
