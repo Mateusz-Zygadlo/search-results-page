@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: lightblue;
+    overflow-x: hidden;
+}
+header{
+    background-color: white;
+}
+.space{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+}
+.two span{
+    padding: 10px;
+}
+p{
+    display: inline-block;
+}
+img{
+    width: 92px;
+    height: auto;
+    padding-right: 20px;
+}
+input{
+    width: 750px;
+    height: 45px;
+    position: relative;
+    border-radius: 30px;
+    border: 1px solid black;
+    top: -12px;
+    padding: 5px;
+    text-indent: 20px;
+}
+.four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55vw;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 10px;
+}
+.fivve{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fivve div{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.first{
+    position: relative;
+    top: -3px;
+    padding: 10px;
+    border-right: 1px solid gray;
+    right: 140px;
+}
+.second{
+    position: relative;
+    top: -3px;
+    right: 135px;
+}
+.third{
+    position: relative;
+    top: -3px;
+    right: 130px;
+}
+hr{
+    background-color: gray;
+    border: 1px solid gray;
+}
+main{
+    margin-left: 140px;
+    background-color: white;
+    min-width: 300px;
+    max-width: 650px;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 15px;
+    font-weight: 400;
+}
+h3{
+    font-size: 25px;
+}
+.structure-one-type-one{
+    display: flex;
+}
+.structure-one-type-one div{
+    margin-left: 10px;
+}
+.structure-one-type-one-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.structure-one{
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.structure-basic{
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.proposed-description{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+.see-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+button{
+    padding: 5px 90px;
+    border-radius: 30px;
+    border: 0.5px solid gray;
+    background-color: white;
+}
+.proposed-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.row-1{
+    max-width: 50%;
+}
+.row-2{
+    max-width: 50%;
+}
+.structure-proposed-links span{
+    margin: 10px;
+}
+.structure-proposed-links{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: lightgray;
+    margin: 5px;
+    border-radius: 40px;
+}
+.structure-proposed-links p{
+    width: 70%;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    padding-left: 140px;
+    background-color: white;
+    width: 100%;
+    min-height: 10px;
+}
+.footer-flex{
+    display: flex;
+    flex-direction: row;
+}
+.footer-flex div{
+    margin: 10px;
+}
+.footer-flex ul{
+    margin: 0;
+}
+.footer-flex li{
+    display: inline-block;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.hr-footer{
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+.flex-footer-two{
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-footer-two li{
+    display: inline-block;
+    margin: 10px;
+}
