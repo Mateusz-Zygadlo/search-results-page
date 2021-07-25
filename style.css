@@ -14,37 +14,6 @@ header{
     color: #5f6368;
     border-bottom: 1px solid lightgray;
 }
-.hr-header{
-    transform: rotate(90deg);
-    position: relative;
-    top: -13px;
-    right: -20px;
-    border: 0.5px solid #dfe1e5;
-}
-.header-space{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-right: 30px;
-}
-.icon-margin span{
-    padding: 10px;
-}
-p{
-    display: inline-block;
-}
-img{
-    width: 92px;
-    height: auto;
-    padding-right: 20px;
-}
-.icon-position p {
-    cursor: pointer;
-}
-.icon-position span{
-    cursor: pointer;
-}
 input{
     width: 750px;
     height: 45px;
@@ -60,8 +29,41 @@ input{
 span{
     cursor: pointer;
 }
-.green{
-    color: green;
+img{
+    width: 92px;
+    height: auto;
+    padding-right: 20px;
+}
+.header-space{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.hr-header{
+    transform: rotate(90deg);
+    position: relative;
+    top: -13px;
+    right: -20px;
+    border: 0.5px solid #dfe1e5;
+}
+.first{
+    position: relative;
+    top: -3px;
+    padding: 10px;
+    right: 140px;
+}
+.second{
+    position: relative;
+    top: -3px;
+    right: 135px;
+}
+.third{
+    position: relative;
+    top: -3px;
+    right: 130px;
+    color: #1a73e8;
 }
 .icon-space {
     display: flex;
@@ -84,25 +86,23 @@ span{
     align-items: center;
     text-align: center;
 }
-.first{
-    position: relative;
-    top: -3px;
-    padding: 10px;
-    right: 140px;
+.icon-position span{
+    cursor: pointer;
 }
-.second{
-    position: relative;
-    top: -3px;
-    right: 135px;
+.icon-position p {
+    cursor: pointer;
 }
 .tools{
     cursor: pointer;
 }
-.third{
-    position: relative;
-    top: -3px;
-    right: 130px;
-    color: #1a73e8;
+.icon-margin span{
+    padding: 10px;
+}
+.green{
+    color: green;
+}
+p{
+    display: inline-block;
 }
 main{
     margin-left: 180px;
@@ -112,33 +112,36 @@ main{
     padding: 10px;
     margin-bottom: 20px;
 }
+main h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+main h3{
+    color: #202124;
+    font-weight: 100;
+    border-bottom: 1px solid lightgray;
+    margin: 5px 1px;
+}
+h3{
+    font-size: 25px;
+}
 .speed-information{
     font-size: 15px;
     font-weight: 400;
     color: #70757a;
 }
-.ad{
-    font-weight: bold;
-}
-h3{
-    font-size: 25px;
+.structure-one{
+    margin-top: 10px;
+    color: #202124;
 }
 .structure-one-type-one{
     display: flex;
 }
+.ad{
+    font-weight: bold;
+}
 .structure-one-type-one div{
     margin-left: 10px;
-}
-.structure-one-type-one-flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 20px;
-    margin-top: 10px;
-}
-.structure-one{
-    margin-top: 10px;
-    color: #202124;
 }
 .structure-one p{
     color: #202124;
@@ -147,20 +150,51 @@ h3{
     color: #1a0dab;
     font-weight: 100;
 }
+.structure-one-type-one-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+.structure-basic{
+    margin-bottom: 20px;
+}
+.structure-basic p{
+    color: #202124;
+}
 .structure-basic h2{
     color: #1a0dab;
     font-weight: 100;
     padding: 5px 0px 5px 0px;
-}   
+} 
 .margin{
     margin-bottom: 20px;
     visibility: hidden;
 }
-main h3{
+.proposed-description{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.proposed-description p{
     color: #202124;
-    font-weight: 100;
-    border-bottom: 1px solid lightgray;
-    margin: 5px 1px;
+    font-size: 16px;
+}
+.proposed-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+}
+.structured-proposed-films p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.img{
+    width: 100px;
+    height: 100px;
 }
 .img1{
     background-color: black;
@@ -180,32 +214,6 @@ main h3{
 .img6{
     background-color: blueviolet;
 }
-.structure-basic{
-    margin-bottom: 20px;
-}
-.structure-basic p{
-    color: #202124;
-}
-.proposed-description{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 0px;
-}
-.proposed-description p{
-    color: #202124;
-    font-size: 16px;
-}
-.img{
-    width: 100px;
-    height: 100px;
-}
-.proposed-flex{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    text-align: center;
-}
 .see-more{
     display: flex;
     justify-content: center;
@@ -214,7 +222,7 @@ main h3{
     margin-bottom: 30px;
     border-bottom: 1px solid lightgray;
 }
-button{
+.see-more button{
     padding: 10px 90px;
     border-radius: 30px;
     border: 0.5px solid lightgray;
@@ -230,17 +238,8 @@ button{
     margin-top: 10px;
     margin-bottom: 20px;
 }
-.visiblity{
-    visibility: hidden;
-}
 .row-1{
     max-width: 50%;
-}
-.row-2{
-    max-width: 50%;
-}
-.structure-proposed-links span{
-    margin: 10px;
 }
 .structure-proposed-links{
     display: flex;
@@ -250,9 +249,33 @@ button{
     margin: 5px;
     border-radius: 40px;
 }
+.structure-proposed-links span{
+    margin: 10px;
+}
 .structure-proposed-links p{
     width: 80%;
     font-size: 16px;
+}
+.structure-proposed-links p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.visiblity{
+    visibility: hidden;
+}
+.row-2{
+    max-width: 50%;
+}
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.final-one span{
+    padding: 0px;
+    font-size: 30px;
+    font-weight: 900;
 }
 .b{
     color: #4285f4;
@@ -266,16 +289,17 @@ button{
 .g{
     color: green;
 }
-.final{
+.final-two{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
 }
-.final-one span{
-    padding: 0px;
-    font-size: 30px;
-    font-weight: 900;
+.final-two span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.margin-left{
+    margin-left: 30px;
 }
 footer{
     padding-left: 180px;
@@ -299,6 +323,10 @@ footer{
 .footer-flex li{
     display: inline-block;
 }
+.border-bottom-footer{
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
 .flex-li-footer{
     display: flex;
     justify-content: flex-start;
@@ -306,10 +334,10 @@ footer{
 }
 .flex-li-footer p{
     color: #3c4043;
-}
-.border-bottom-footer{
-    border-right: 1px solid black;
-    padding-right: 10px;
+} 
+.hover:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 .flex-footer-two{
     display: flex;
@@ -319,36 +347,6 @@ footer{
 .flex-footer-two li{
     display: inline-block;
     margin: 10px;
-}
-.final-two{
-    display: flex;
-    justify-content: space-between;
-}
-.margin-left{
-    margin-left: 30px;
-}
-main h2:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-.hover:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-.structured-proposed-films p:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-.structure-proposed-links p:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-.final-two{
-    margin-top: 10px;
-}
-.final-two span:hover{
-    text-decoration: underline;
-    cursor: pointer;
 }
 .flex-footer-two li:hover{
     text-decoration: underline;
