@@ -14,25 +14,21 @@ header{
     color: #5f6368;
     border-bottom: 1px solid lightgray;
 }
-.test{
+.hr-header{
     transform: rotate(90deg);
     position: relative;
     top: -13px;
     right: -20px;
     border: 0.5px solid #dfe1e5;
 }
-.space{
+.header-space{
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
     padding-top: 30px;
     padding-right: 30px;
 }
-.one{
-    display: flex;
-    flex-direction: column;
-}
-.two span{
+.icon-margin span{
     padding: 10px;
 }
 p{
@@ -43,10 +39,10 @@ img{
     height: auto;
     padding-right: 20px;
 }
-.fivve p{
+.icon-position p {
     cursor: pointer;
 }
-.fivve span{
+.icon-position span{
     cursor: pointer;
 }
 input{
@@ -64,10 +60,10 @@ input{
 span{
     cursor: pointer;
 }
-.test-5{
+.green{
     color: green;
 }
-.four {
+.icon-space {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,13 +71,13 @@ span{
     margin-left: 140px;
     padding-right: 10px;
 }
-.fivve{
+.icon-position{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.fivve div{
+.icon-position div{
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -99,7 +95,7 @@ span{
     top: -3px;
     right: 135px;
 }
-.six p{
+.tools{
     cursor: pointer;
 }
 .third{
@@ -203,7 +199,7 @@ main h3{
     width: 100px;
     height: 100px;
 }
-.flex{
+.proposed-flex{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -303,15 +299,15 @@ footer{
 .footer-flex li{
     display: inline-block;
 }
-.flex-end{
+.flex-li-footer{
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
 }
-.flex-end p{
+.flex-li-footer p{
     color: #3c4043;
 }
-.hr-footer{
+.border-bottom-footer{
     border-right: 1px solid black;
     padding-right: 10px;
 }
@@ -328,7 +324,7 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-.margin-0{
+.margin-left{
     margin-left: 30px;
 }
 main h2:hover{
