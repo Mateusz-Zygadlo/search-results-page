@@ -1,3 +1,8 @@
+:root{
+    --background-color: #fff;
+    --lightgray: #d3d3d3;
+    --blue: #1a0dab;
+}
 *{
     padding: 0;
     margin: 0;
@@ -6,13 +11,13 @@
 body{
     width: 100vw;
     min-height: 100vh;
-    background: white;
+    background: var(--background-color);
     overflow-x: hidden;
 }
 header{
-    background-color: white;
+    background-color: var(--background-color);
     color: #5f6368;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid var(--lightgray);
 }
 input{
     width: 750px;
@@ -37,9 +42,7 @@ img{
 .header-space{
     display: flex;
     justify-content: space-between;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-right: 30px;
+    padding: 30px 30px 10px 30px;
 }
 .hr-header{
     transform: rotate(90deg);
@@ -86,27 +89,21 @@ img{
     align-items: center;
     text-align: center;
 }
-.icon-position span{
-    cursor: pointer;
-}
-.icon-position p {
-    cursor: pointer;
-}
-.tools{
+header p{
     cursor: pointer;
 }
 .icon-margin span{
     padding: 10px;
 }
 .green{
-    color: green;
+    color: rgb(4, 133, 4);
 }
 p{
     display: inline-block;
 }
 main{
     margin-left: 180px;
-    background-color: white;
+    background-color: var(--background-color);
     min-width: 300px;
     max-width: 650px;
     padding: 10px;
@@ -119,10 +116,10 @@ main h2:hover{
 main h3{
     color: #202124;
     font-weight: 100;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid var(--lightgray);
     margin: 5px 1px;
 }
-h3{
+main h3{
     font-size: 25px;
 }
 .speed-information{
@@ -138,7 +135,7 @@ h3{
     display: flex;
 }
 .ad{
-    font-weight: bold;
+    font-weight: 900;
 }
 .structure-one-type-one div{
     margin-left: 10px;
@@ -147,7 +144,7 @@ h3{
     color: #202124;
 }
 .structure-one h2{
-    color: #1a0dab;
+    color: var(--blue);
     font-weight: 100;
 }
 .structure-one-type-one-flex{
@@ -164,7 +161,7 @@ h3{
     color: #202124;
 }
 .structure-basic h2{
-    color: #1a0dab;
+    color: var(--blue);
     font-weight: 100;
     padding: 5px 0px 5px 0px;
 } 
@@ -197,22 +194,22 @@ h3{
     height: 100px;
 }
 .img1{
-    background-color: black;
+    background-color: rgb(10, 10, 10);
 }
 .img2{
-    background-color: darkgrey;
+    background-color: rgba(169, 169, 169, 0.897);
 }
 .img3{
-    background-color: blue;
+    background-color: var(--blue);
 }
 .img4{
-    background-color: green;
+    background-color: rgb(5, 131, 5);
 }
 .img5{
-    background-color: aqua;
+    background-color: rgb(9, 252, 252);
 }
 .img6{
-    background-color: blueviolet;
+    background-color: rgb(124, 30, 212);
 }
 .see-more{
     display: flex;
@@ -220,14 +217,14 @@ h3{
     align-items: center;
     margin-top: 20px;
     margin-bottom: 30px;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid =var(--lightgray);
 }
 .see-more button{
     padding: 10px 90px;
     border-radius: 30px;
-    border: 0.5px solid lightgray;
-    background-color: white;
-    color: #1a0dab;
+    border: 0.5px solid var(--lightgray);
+    background-color: var(--background-color);
+    color: var(--blue);
     margin: 10px 20px 30px 20px;
 }
 .proposed-links{
@@ -278,16 +275,16 @@ h3{
     font-weight: 900;
 }
 .b{
-    color: #4285f4;
+    color: var(--blue);
 }
 .r{
-    color: red;
+    color: rgb(236, 14, 14);
 }
 .o{
-    color: orange;
+    color: rgb(245, 162, 9);
 }
 .g{
-    color: green;
+    color: rgb(6, 160, 6);
 }
 .final-two{
     display: flex;
@@ -311,20 +308,18 @@ footer{
 .footer-flex{
     display: flex;
     flex-direction: row;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid var(--lightgray);
     padding: 10px 5px 5px 5px;
 }
 .footer-flex div{
     margin: 10px;
 }
-.footer-flex ul{
-    margin: 0;
-}
+
 .footer-flex li{
     display: inline-block;
 }
 .border-bottom-footer{
-    border-right: 1px solid black;
+    border-right: 1px solid var(--lightgray);
     padding-right: 10px;
 }
 .flex-li-footer{
